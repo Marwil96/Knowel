@@ -1,0 +1,152 @@
+body {
+	margin:0;
+	padding: 0;
+}
+@font-face {
+    font-family: swedenSans;
+    src: url(util/fonts/SwedenSans.otf);
+} 
+@font-face {
+    font-family: swedenSansBold;
+    src: url(util/fonts/SwedenSansBold.ttf);
+} 
+.header {
+	position: fixed;
+	height: 10vh;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-self: center;
+}
+.menuRow {
+	position: absolute;
+	display: flex;
+    align-self: flex-end;
+    justify-content: space-between;
+    width: 20%;
+    margin-left: -10%;
+}
+.logo {
+	margin-left: 5%;
+	font-size: 28px;
+	font-family: swedenSans;
+}
+.menuItems {
+	font-size: 20px;
+	font-family: swedenSans;
+}
+.landingPage {
+	height: 100vh;
+	width: 100%;
+	background: #F5F5F5;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+
+}
+.introTextDiv {
+	margin-top: 25vh;
+	width: 60%;
+}
+.landingPageRubrik {
+	font-size: 40px;
+	text-align: center;
+	font-family: swedenSans;
+	opacity: 0.9;
+}
+.landingPageText {
+	font-size: 28px;
+	text-align: center;
+	font-family: swedenSans;
+	opacity: 0.78;
+}
+.landingPageButton {
+	width: 250px;
+	height: 70px;
+	margin-top: 20px;
+	background-color: #4A90E2;
+	border-radius: 10px;	
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    font-family: swedenSans;
+}
+.landingPageButtonText {
+	color:#F5F5F5;
+}
+.projectPage {
+	height: 300vh;
+	width: 100%;
+}
+.bigProject {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.bigProject1 {
+	width: 100%;
+	height: 100%;
+background: url("http://whatsonafrica.org/wp-content/uploads/2017/06/Entrepreneurs-in-Africa.jpg")no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  filter: brightness(0.6);
+}
+
+.bigProject2 {
+		width: 100%;
+	height: 100%;
+background: url("https://www.topbusinessjournal.com/wp-content/uploads/2017/03/business-man-maxresdefault-1.jpg")no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  filter: brightness(0.6);
+}
+.bigProject3 {
+		width: 100%;
+	height: 100%;
+background: url("https://africanentrepreneurshipaward.com/app/uploads/2015/06/8161674482_e37aad85dd_k.jpg")no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  filter: brightness(0.6);
+	
+}
+.infoBigProjectContainer {
+	color: white;
+	width: 40%;
+	margin-left: 10%;
+	height: 20vh;
+	margin-bottom: 0;
+	z-index: 1000;
+	font-family: swedenSans;
+	}
+.infoBigProjectText {
+	font-size: 23px;
+}
+.line {
+	width: 50%;
+	margin-bottom: -9px;
+	border-bottom:2px solid white;
+}
+.infoBigProjectButton {
+	font-size: 18px;
+}
+
+.projectBox {
+	width: 95%;
+	height: 100%;
+	background: white;
+	margin-left: auto;
+	margin-right: auto;
+}
